@@ -2,6 +2,7 @@
 
 module.exports = {
   db: 'mongodb://' + (process.env.DB_PORT_27017_TCP_ADDR || 'localhost') + '/mean-dev',
+  // db: 'mongodb://admin:admin@ds047712.mongolab.com:47712/mean-prod',
   debug: true,
   logging: {
     format: 'tiny'
